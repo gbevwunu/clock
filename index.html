@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, intial-scale=1">
+   <meta name="aurthur" content="Clinton Ekagha">
+   <meta name="description" content="Alarm">
+   <meta name="keywords" content="html, css, web development, javascript">
+   <title>Alarm</title>
+   <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Source+Code+Pro:wght@200&display=swap"> 
+   <link rel="stylesheet" href="./assets/style/index.css" media="all">
+   <script src="./assets/script/alarm.js" defer></script>
+ </head>
+ <body>
+    <main>
+        <div class="center">
+          <div class="clock">
+            <h1 class="time">00:00</h1>
+            <p class="alarm"><i class="fas fa-bell"></i><span></span></p>
+            <form>
+              <input type="text" class="hour" placeholder="HH" minlength="2" maxlength="2">
+              <input type="text" class="minutes" placeholder="MM" minlength="2" maxlength="2">
+              <input type="button" class="set" value="Set alarm">
+            </form>
+          </div>
+        </div>
+    </main>
+ </body>
+</html>
